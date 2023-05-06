@@ -4,6 +4,7 @@
 
 ## Provided C# version:
 
+```
 public class Dog
 {
 	public string Name { get; set; }
@@ -29,11 +30,12 @@ public string GetRandomBreed(string[] breeds)
 	int index = random.Next(breeds.Length);
 	return breeds[index];
 }
-
+```
 
 
 ## Javascript version:
 
+```
 class Dog {
     constructor(name, breed) {
         this.name = name;
@@ -57,11 +59,12 @@ console.log(dog.name)
 console.log(dog.breed)
 console.log(dog.Bark())
 console.log(GetRandomBreed(dogBreeds))
-
+```
 
 
 ## TypeScript version:
 
+```
 class Dog {
     name: string;
     breed: string;
@@ -88,3 +91,4 @@ console.log(dog.name)
 console.log(dog.breed)
 console.log(dog.Bark())
 console.log(GetRandomBreed(dogBreeds))
+```
